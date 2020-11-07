@@ -1,0 +1,15 @@
+Breakpoint 1 at 0x86c: file 4.cpp, line 10.
+Breakpoint 2 at 0x8d0: file 4.cpp, line 17.
+Starting program: /mnt/d/CS200 - STT II/Assignments/square 
+
+Breakpoint 1, main () at 4.cpp:10
+warning: Source file is more recent than executable.
+10	    cout << "In the middle of the program.\n";
+$1 = 10
+Continuing.
+
+Breakpoint 2, func (y=10) at 4.cpp:17
+17	    cout << "In the function.\n";
+$2 = 0
+Continuing.
+[Inferior 1 (process 69) exited normally]

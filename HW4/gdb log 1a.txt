@@ -1,0 +1,70 @@
+Breakpoint 1 at 0x852: file 4.cpp, line 7.
+Breakpoint 2 at 0x86c: file 4.cpp, line 10.
+Breakpoint 3 at 0x88c: file 4.cpp, line 12.
+Breakpoint 4 at 0x8d0: file 4.cpp, line 17.
+Breakpoint 5 at 0x8f4: file 4.cpp, line 21.
+Breakpoint 6 at 0x90d: file 4.cpp, line 23.
+Starting program: /mnt/d/CS200 - STT II/Assignments/sqr 
+
+Breakpoint 1, main () at 4.cpp:7
+warning: Source file is more recent than executable.
+7	    cout << "Program is starting.\n";
+$1 = 0
+$2 = 0
+No symbol "answer" in current context.
+No symbol "y" in current context.
+Continuing.
+
+Breakpoint 2, main () at 4.cpp:10
+10	    cout << "In the middle of the program.\n";
+$3 = 10
+$4 = 0
+No symbol "answer" in current context.
+No symbol "y" in current context.
+Continuing.
+
+Breakpoint 4, func (y=10) at 4.cpp:17
+17	    cout << "In the function.\n";
+$5 = 0
+$6 = '\000' <repeats 113 times>
+$7 = 0
+$8 = 10
+Continuing.
+
+Breakpoint 5, func (y=10) at 4.cpp:21
+21	    cout << "In the middle of the function.\n";
+$9 = 20
+$10 = '\000' <repeats 113 times>
+$11 = 15
+$12 = 10
+Continuing.
+
+Breakpoint 6, func (y=10) at 4.cpp:23
+23	    cout << "The function is exiting.\n";
+$13 = 20
+$14 = '\000' <repeats 113 times>
+$15 = 35
+$16 = 10
+Continuing.
+
+Breakpoint 3, main () at 4.cpp:12
+12	    cout << "The result is " << result << ".\n";
+$17 = 10
+$18 = 35
+No symbol "answer" in current context.
+No symbol "y" in current context.
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000000008000852 in main() at 4.cpp:7
+	breakpoint already hit 1 time
+2       breakpoint     keep y   0x000000000800086c in main() at 4.cpp:10
+	breakpoint already hit 1 time
+3       breakpoint     keep y   0x000000000800088c in main() at 4.cpp:12
+	breakpoint already hit 1 time
+4       breakpoint     keep y   0x00000000080008d0 in func(int) at 4.cpp:17
+	breakpoint already hit 1 time
+5       breakpoint     keep y   0x00000000080008f4 in func(int) at 4.cpp:21
+	breakpoint already hit 1 time
+6       breakpoint     keep y   0x000000000800090d in func(int) at 4.cpp:23
+	breakpoint already hit 1 time
+Continuing.
+[Inferior 1 (process 48) exited normally]
