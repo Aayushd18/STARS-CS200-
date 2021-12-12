@@ -1,2 +1,2 @@
 # Stars-CS200-
-This repo is made to do the assignments of CS200 course.
+This repository contains projects and assignmnet associated with the CS200 course
