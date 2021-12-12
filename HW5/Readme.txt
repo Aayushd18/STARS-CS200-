@@ -1,1 +1,1 @@
-This repo contains all files pertaining to HW5 of CS200 Assignment.
+This repository contains a project to display the family tree of a person using Git VCS.
