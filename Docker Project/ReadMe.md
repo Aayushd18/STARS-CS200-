@@ -1,1 +1,1 @@
-## This folder will contain an entire Dockerised application to stich the back and front end of a webpage using PHP.
+## This folder contains an entire Dockerised application to stitch the back and front end of a webpage using PHP.
